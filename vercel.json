@@ -17,11 +17,11 @@
         "APP_DEBUG": "true",
     
         "DB_CONNECTION": "pgsql",
-        "DB_HOST": "rosie.db.elephantsql.com",
+        "DB_HOST": "ep-lingering-field-85877966-pooler.ap-southeast-1.postgres.vercel-storage.com",
         "DB_PORT": "5432",
-        "DB_DATABASE": "db_pwh",
-        "DB_USERNAME": "vestfcnp",
-        "DB_PASSWORD": "gCpqSHyD-G-37R_JXvUE-Q0--YSzMVT5",
+        "DB_DATABASE": "verceldb",
+        "DB_USERNAME": "default",
+        "DB_PASSWORD": "nxOwB9kr8eSX",
 
         "PUSHER_APP_ID": "1723237",
         "PUSHER_APP_KEY": "d5c7fbf9de7c00bcd3f9",
