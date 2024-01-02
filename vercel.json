@@ -15,7 +15,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://public-work-hub.vercel.app/",
+        "APP_URL": "https://public-work-hub-git-prod-vercel-anuraaaa.vercel.app",
     
         "DB_CONNECTION": "pgsql",
         "DB_HOST": "rosie.db.elephantsql.com",
