@@ -1,0 +1,45 @@
+{
+    "version": 2,
+    "framework": "null",
+
+    "functions":{
+        "api/index.php": { "runtime": "vercel-php@0.6.0"}
+    },
+    "routes": [
+        
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://public-work-hub.vercel.app/",
+    
+        "DB_CONNECTION": "pgsql",
+        "DB_HOST": "rosie.db.elephantsql.com",
+        "DB_PORT": 5432,
+        "DB_DATABASE": "db_pwh",
+        "DB_USERNAME": "vestfcnp",
+        "DB_PASSWORD": "gCpqSHyD-G-37R_JXvUE-Q0--YSzMVT5",
+
+        "PUSHER_APP_ID": 1723237,
+        "PUSHER_APP_KEY": "d5c7fbf9de7c00bcd3f9",
+        "PUSHER_APP_SECRET": "7b7c45cda2225674bbcd",
+        "PUSHER_PORT": 443,
+        "PUSHER_SCHEME": "https",
+        "PUSHER_APP_CLUSTER": "ap1",                
+        
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+    
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie"
+    }
+}
